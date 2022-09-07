@@ -1,0 +1,111 @@
+body{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-color: #000000;
+}
+
+.nav-link{
+    width: 150px;
+    border: #5c1515 1px solid;
+    margin: 15px;
+    text-align: center;
+}
+
+.nav-link:hover{
+    background-color:#5c1515 ;
+}
+
+.bio-container{
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.bio-container img{
+    width: 70%;
+    border: #2CCB6F 5px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.bio-container h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.bio-container h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo{
+    width: 100px;
+}
+.sticky{
+    background-color: rgba(141, 141, 141, 0.5);
+    transition: all ease-in-out 500ms;
+    color: #000000;
+
+  
+}
+#skills{
+    background-image: url(assests/155-1552359_white-dots-transparent-background-polka-dot-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    width: 100%;
+}
+.skills-card-container{
+    margin: 150px 200px 0px 200px;
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 200px;
+}
+
+.text-container h5{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.text-container p{
+    font-size: 25px;
+    padding-top: 10px;
+    text-align:center;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  .swiper-slide{
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 30%;
+   
+  }
+
+  .footer-contact ul{
+    list-style: none;
+    padding-left: 0px;
+  }
+  .footer-contact ul li{
+    display: inline-block;
+ 
+  }
+  .btn{
+    display: inline;
+    color: #fff;
+    background-color:#2CCB6F
+  }
